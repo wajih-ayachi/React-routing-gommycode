@@ -8,11 +8,11 @@ export default function NavBar() {
         <div>
              <Navbar bg="primary" variant="dark">
     <Container>
-    <Navbar.Brand href="#home">Gomycode</Navbar.Brand>
+    <Navbar.Brand href="#home">TD-REACT</Navbar.Brand>
     <Nav className="me-auto">
-      <NavLink className="nav-link"to="/">Home</NavLink>
-      <NavLink className="nav-link" to="Apropos">apropos</NavLink>
-      <NavLink className="nav-link" to="Taches">taches</NavLink>
+      <NavLink className="nav-link"to="/">ACCUEIL</NavLink>
+      <NavLink className="nav-link" to="Users">UTILISATEURS</NavLink>
+      <NavLink className="nav-link" to="Comments">COMMENTAIRES</NavLink>
     </Nav>
     </Container>
   </Navbar>
